@@ -1,0 +1,14 @@
+{
+  "hosting": {
+    "public": "MutanteMercadoLibrePublic",
+    "rewrites": [
+      {
+        "source": "**",
+        "function": "app"
+      }
+    ]
+  },
+  "database": {
+    "rules": "database.rules.json"
+  }
+}
